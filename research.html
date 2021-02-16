@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon"  type="image/x-icon" href="imgs/logo.ico">
+    <title>Elena Pagliarini</title>
+</head>
+
+<body onload="onLoad()" onresize="set_projs()">
+    <header>
+        <div class="menu">
+            <ol>
+            <li><a href="index.html">home</a></li>
+            <li><a href="research.html">research</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="more.html">more</a></li>
+            </ol>
+        </div>
+    </header>
+
+    <div id="pop_place"></div>
+    <div id="proj">
+        <!-- this will be filled by reading in ./projects/* -->
+    </div>
+    <script src="projects/projs.js"></script>
+</html>

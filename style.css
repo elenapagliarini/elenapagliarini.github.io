@@ -1,0 +1,54 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+header {
+    text-align:center;
+}
+
+.menu {
+    margin-bottom: 2%;
+    background-color: powderblue;
+}
+
+.menu ol {
+    list-style: none;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.menu li {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.proj_row {
+    display: flex;
+}
+
+.proj_block {
+    flex: 40%;
+    margin: 1%;
+    padding: 10px;
+    border-style: solid;
+    border-color: powderblue;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-style: solid;
+    border-color: powderblue;
+    background-color: white;
+    padding: 10px;
+    opacity: 1;
+}
