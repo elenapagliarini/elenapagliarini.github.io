@@ -1,3 +1,5 @@
+#! /bin/python
+
 '''
     Has to create:
         List of blocks, each containing: title + img

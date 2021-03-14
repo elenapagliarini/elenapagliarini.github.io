@@ -46,7 +46,7 @@ function onLoad() {
 		var pop = document.createElement("div");
 		pop.id = "popup";
 		pop.className = "overlay";
-		pop.innerHTML = "<b>The complex realm of Developmental Dyslexia</b><br>			\n<p>Developmental Dyslexia is a learning disorder characterized by specific difficulty in learning \nto read accurately and fluently. It has been argued that the source of the disorder in developmental \ndyslexia is phonological in nature. However, dyslexics often suffer from for fine and gross motor problems, \nsubtle deficits in the processing of morphosyntactic features and of complex syntactic structures, \nand experience difficulties in rhythm perception. This project aims at defining a \nmore-fine grained linguistic and cognitive profile of children with Developmental Dyslexia. </p>\n";		setTimeout(add_popup, 100, document.getElementById("pop_place"), pop);
+		pop.innerHTML = "<b>The complex realm of Developmental Dyslexia</b><br>			\n<p>Developmental Dyslexia is a learning disorder characterized by specific difficulty in learning \nto read accurately and fluently. It has been argued that the source of the disorder in developmental \ndyslexia is phonological in nature. However, dyslexics often suffer from for fine and gross motor problems, \nsubtle deficits in the processing of morphosyntactic features and of complex syntactic structures, \nand experience difficulties in rhythm perception. </p>\n<p>This project aims at defining a \nmore-fine grained linguistic and cognitive profile of children with Developmental Dyslexia and of children with Specific Language Impairment. </p>\n";		setTimeout(add_popup, 100, document.getElementById("pop_place"), pop);
 	};
 	projs.push(p);
 
