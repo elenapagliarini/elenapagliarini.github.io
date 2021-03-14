@@ -52,3 +52,6 @@ header {
     padding: 10px;
     opacity: 1;
 }
+
+ul.more li {
+margin-bottom: 10px;}
